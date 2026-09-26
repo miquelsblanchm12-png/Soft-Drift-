@@ -1,28 +1,40 @@
+# SoftDrift
 
-SoftDrift is a small drifting game I made with Godot.
+SoftDrift es un juego de conducción arcade centrado en el drifting.
 
-The idea is pretty simple. You drive around a chill map, drift, collect wheels and try to get the highest drift score before the time runs out.
+Conduce por el escenario, recoge las ruedas y consigue la mayor puntuación posible manteniendo tus derrapes durante la partida.
 
-Features
-- Drifting system
-- Drift score and combo
-- Different cars
-- Car selection menu
-- 10 wheels to collect
-- 2 minute timer
-- Win and lose screen
-- Simple loading screen
-- Engine and drift sounds
-- Chill low-poly style
-- Controls
+## Cómo jugar
 
-- W - Accelerate
-- S - Reverse
-- A / D - Turn
-- Space - Drift
+El objetivo es recoger las 10 ruedas antes de que termine el tiempo. Los derrapes generan puntos y aumentan el multiplicador mientras consigues mantener el control del coche.
 
-Made with
-Godot
+## Controles
 
+- W: acelerar
+- S: frenar o ir marcha atrás
+- A: girar a la izquierda
+- D: girar a la derecha
+- Espacio: derrapar
 
-This is a project I made while learning Godot. It's not perfect but I'm still working on it and trying to improve it.
+## Características
+
+- Sistema de drifting arcade.
+- Puntuación acumulativa durante la partida.
+- Multiplicador por mantener los derrapes.
+- El coche gira visualmente mientras derrapa.
+- Marcas de neumáticos sobre el suelo.
+- Ciclo visual de noche a amanecer.
+- Música y sonidos en bucle.
+- Dos coches seleccionables.
+
+## Requisitos
+
+El juego está creado con Godot 4 y funciona mejor en un navegador actualizado o en una versión exportada para escritorio.
+
+## Estado del proyecto
+
+SoftDrift es un proyecto en desarrollo. Algunas partes pueden cambiar en futuras versiones.
+
+## Créditos
+
+Desarrollado con Godot Engine.
