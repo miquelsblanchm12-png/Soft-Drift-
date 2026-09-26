@@ -37,6 +37,9 @@ SoftDrift is a work-in-progress project. Some elements may change in future vers
 
 You can play it at https://shebas6.itch.io/soft-drift
 
+## Ai usagee
+I've used AI to debug a few things and to write some code I didn't know how to create or hadn't been able to find elsewhere.
+
 ## Credits
 
 Developed with Godot Engine.
