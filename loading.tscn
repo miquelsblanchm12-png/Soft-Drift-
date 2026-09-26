@@ -1,0 +1,101 @@
+[gd_scene format=3 uid="uid://dqtk1oyfnt1c"]
+
+[ext_resource type="FontFile" uid="uid://bx7sbl54wi80w" path="res://scenes/Goldy Burst.ttf" id="1_ir5ef"]
+[ext_resource type="Script" uid="uid://ehs06s6bqjtj" path="res://scenes/loading.gd" id="1_yc7uc"]
+[ext_resource type="Texture2D" uid="uid://cit22wtqdeqos" path="res://scenes/ChatGPT Image 25 sept 2026, 14_49_18.png" id="3_yt702"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_g4v7s"]
+font = ExtResource("1_ir5ef")
+font_size = 53
+outline_size = 13
+outline_color = Color(0, 0, 0, 1)
+shadow_size = 16
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_2ytni"]
+
+[sub_resource type="Theme" id="Theme_nxo4k"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_c856a"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_2b8ay"]
+bg_color = Color(6.4495207e-06, 0.5446668, 0.72107834, 1)
+border_color = Color(0, 0.56260854, 0.683557, 1)
+
+[node name="Loading" type="Control" unique_id=1670224450]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_yc7uc")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=194407022]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -832.0
+offset_top = -400.0
+offset_right = 840.0
+offset_bottom = 540.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.9548389, 0.9828904)
+offset_transform_scale = Vector2(0.47, 0.47)
+texture = ExtResource("3_yt702")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=868353626]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Title" type="Label" parent="." unique_id=325659234]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -42.0
+offset_top = 67.0
+offset_right = 42.0
+offset_bottom = 90.0
+grow_horizontal = 2
+text = "SOFTDRIFT"
+label_settings = SubResource("LabelSettings_g4v7s")
+
+[node name="LoadingText" type="Label" parent="." unique_id=1452007235]
+layout_mode = 0
+offset_left = 491.99997
+offset_top = 241.0
+offset_right = 710.0
+offset_bottom = 304.0
+scale = Vector2(0.715, 0.715)
+theme_override_font_sizes/font_size = 7
+text = "LOADING..."
+label_settings = SubResource("LabelSettings_g4v7s")
+
+[node name="ProgressBar" type="ProgressBar" parent="." unique_id=1000557247]
+material = SubResource("CanvasItemMaterial_2ytni")
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -227.0
+offset_top = 129.0
+offset_right = 197.95996
+offset_bottom = 164.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = SubResource("Theme_nxo4k")
+theme_override_fonts/font = ExtResource("1_ir5ef")
+theme_override_font_sizes/font_size = 30
+theme_override_styles/background = SubResource("StyleBoxEmpty_c856a")
+theme_override_styles/fill = SubResource("StyleBoxFlat_2b8ay")

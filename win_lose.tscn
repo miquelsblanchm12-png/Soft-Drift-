@@ -1,0 +1,111 @@
+[gd_scene format=3 uid="uid://0713qgf5agsq"]
+
+[ext_resource type="Script" uid="uid://b1slxwxa1e065" path="res://scenes/win_lose.gd" id="1_276oo"]
+[ext_resource type="Texture2D" uid="uid://cit22wtqdeqos" path="res://scenes/ChatGPT Image 25 sept 2026, 14_49_18.png" id="2_8ndiw"]
+[ext_resource type="FontFile" uid="uid://bx7sbl54wi80w" path="res://scenes/Goldy Burst.ttf" id="2_p2hbb"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_8ndiw"]
+font = ExtResource("2_p2hbb")
+font_size = 94
+outline_size = 16
+outline_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_g4v7s"]
+font = ExtResource("2_p2hbb")
+font_size = 35
+outline_size = 16
+outline_color = Color(0, 0, 0, 1)
+
+[node name="WinLose" type="Control" unique_id=248807124]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_276oo")
+
+[node name="ColorRect" type="TextureRect" parent="." unique_id=1382745428]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -107.0
+offset_top = -30.00003
+offset_right = 413.0
+offset_bottom = 262.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.8212142, 0.7738475)
+texture = ExtResource("2_8ndiw")
+
+[node name="Title" type="Label" parent="." unique_id=2060002415]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -160.0
+offset_top = -253.0
+offset_right = 158.0
+offset_bottom = -143.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "VICTORY"
+label_settings = SubResource("LabelSettings_8ndiw")
+
+[node name="Score" type="Label" parent="." unique_id=1719337113]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -116.0
+offset_top = -150.0
+offset_right = 142.0
+offset_bottom = -53.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "DRIFT SCORE: 0
+"
+label_settings = SubResource("LabelSettings_g4v7s")
+
+[node name="RetryButton" type="Button" parent="." unique_id=2013859082]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -27.5
+offset_top = 104.5
+offset_right = 28.5
+offset_bottom = 135.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 12
+theme_override_fonts/font = ExtResource("2_p2hbb")
+theme_override_font_sizes/font_size = 40
+text = "RETRY"
+
+[node name="MenuButton" type="Button" parent="." unique_id=1000995781]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -51.0
+offset_top = -29.0
+offset_right = 53.0
+offset_bottom = 26.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 12
+theme_override_fonts/font = ExtResource("2_p2hbb")
+theme_override_font_sizes/font_size = 40
+text = "MENU"
