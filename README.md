@@ -1,40 +1,42 @@
 # SoftDrift
 
-SoftDrift es un juego de conducción arcade centrado en el drifting.
+SoftDrift is an arcade-style driving game focused on drifting.
 
-Conduce por el escenario, recoge las ruedas y consigue la mayor puntuación posible manteniendo tus derrapes durante la partida.
+Drive around the environment, collect tires, and achieve the highest possible score by maintaining your drifts throughout the game.
 
-## Cómo jugar
+## How to Play
 
-El objetivo es recoger las 10 ruedas antes de que termine el tiempo. Los derrapes generan puntos y aumentan el multiplicador mientras consigues mantener el control del coche.
+The goal is to collect all 10 tires before time runs out. Drifting earns points and increases your multiplier, provided you maintain control of the car.
 
-## Controles
+## Controls
 
-- W: acelerar
-- S: frenar o ir marcha atrás
-- A: girar a la izquierda
-- D: girar a la derecha
-- Espacio: derrapar
+- W: Accelerate
+- S: Brake or reverse
+- A: Turn left
+- D: Turn right
+- Space: Drift
 
-## Características
+## Features
 
-- Sistema de drifting arcade.
-- Puntuación acumulativa durante la partida.
-- Multiplicador por mantener los derrapes.
-- El coche gira visualmente mientras derrapa.
-- Marcas de neumáticos sobre el suelo.
-- Ciclo visual de noche a amanecer.
-- Música y sonidos en bucle.
-- Dos coches seleccionables.
+- Arcade drifting mechanics.
+- Cumulative scoring during gameplay.
+- Multiplier for sustained drifts.
+- Visual car rotation while drifting.
+- Tire marks on the ground.
+- Visual night-to-dawn cycle.
+- Looped music and sound effects.
+- Two selectable cars.
 
-## Requisitos
+## Requirements
 
-El juego está creado con Godot 4 y funciona mejor en un navegador actualizado o en una versión exportada para escritorio.
+The game was built using Godot 4 and runs best in an up-to-date web browser or as a desktop export.
 
-## Estado del proyecto
+## Project Status
 
-SoftDrift es un proyecto en desarrollo. Algunas partes pueden cambiar en futuras versiones.
+SoftDrift is a work-in-progress project. Some elements may change in future versions.
 
-## Créditos
+You can play it at https://shebas6.itch.io/soft-drift
 
-Desarrollado con Godot Engine.
+## Credits
+
+Developed with Godot Engine.
