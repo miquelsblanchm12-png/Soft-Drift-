@@ -43,3 +43,7 @@ I've used AI to debug a few things and to write some code I didn't know how to c
 ## Credits
 
 Developed with Godot Engine.
+
+Stock fotos 
+
+No copyright music from https://breakingcopyright.com/es/chill
