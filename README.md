@@ -44,6 +44,6 @@ I've used AI to debug a few things and to write some code I didn't know how to c
 
 Developed with Godot Engine.
 
-Stock fotos 
+Stock photos 
 
 No copyright music from https://breakingcopyright.com/es/chill
